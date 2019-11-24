@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useLayoutEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "./Example.css";
-import { exampleAction } from "../actions/";
+import { exampleAction } from "../../actions";
 
 function Example() {
   const reduxState = useSelector(state => state.example);
